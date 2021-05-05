@@ -14,9 +14,8 @@ import { signOut } from '../../firebase'
 import { getToken, addtoken } from '../../firebase';
 
 import socketIOClient from "socket.io-client";
-//const ENDPOINT = "https://boiling-headland-46561.herokuapp.com";
-//const ENDPOINT = "http://localhost:5000";
-const ENDPOINT = "https://clipio-backend.azurewebsites.net";
+
+const ENDPOINT = "http://localhost:5000";
 
 function Cache({ id, text, copyFn, deleteFn }) {
     return (
