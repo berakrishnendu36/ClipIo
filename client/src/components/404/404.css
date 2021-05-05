@@ -1,0 +1,24 @@
+.error-wrap{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-img{
+    object-fit: contain;
+    width: 100%;
+    height: 60%;
+    padding: 50px 20px;
+}
+
+.error-text{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    text-align: center;
+    padding: 50px 20px;
+}

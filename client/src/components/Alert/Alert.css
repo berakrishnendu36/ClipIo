@@ -1,0 +1,23 @@
+.alert-box{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alert{
+    display: none;
+    z-index: 100;
+    width: auto;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #862a41;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}

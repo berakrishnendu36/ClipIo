@@ -1,0 +1,197 @@
+.sign{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 540px;
+}
+.sign-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-head{
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 200;
+}
+.hero-sub{
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 100;
+  line-height: 2rem;
+  letter-spacing: 3px;
+}
+
+.hero-image{
+  width: 400px;
+}
+
+.sign-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-head{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 100;
+  line-height: 2rem;
+  letter-spacing: 3px;
+}
+
+.sign-in-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-up-wrap{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.sign-toggle{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sign-error{
+  margin-bottom: 20px;
+  color:red;
+}
+
+.sign-toggle:hover{
+    color: #f8d50e;
+    transition: all 0.4s ease forwards;
+}
+
+.sign-btn-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.google-btn {
+    width: 184px;
+    height: 42px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  .google-btn .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .google-btn .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .google-btn .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: #fff;
+    font-size: 15px;
+  }
+  .google-btn:hover {
+    box-shadow: 0 0 6px #4285f4;
+  }
+  .google-btn:active {
+    background: #1669F2;
+  }
+
+.sign-input{
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.about{
+  width: 100%;
+  
+}
+
+.head-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.about-head{
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 20px 10px 20px;
+  width: auto;
+  font-weight: 200;
+  border-bottom:2px solid white;
+}
+
+.about-body{
+  text-align: center;
+  font-size: 15px;
+  padding: 40px;
+  font-weight: 100;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.footer{
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff49;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer:hover{
+  transform: translateY(-5px);
+}
+
+@media only screen and (max-width:768px){
+    .sign{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sign-btn-wrap{
+      flex-direction: column;
+    }
+    .google-btn{
+      margin-top: 20px;
+    }
+    .hero-image{
+      width: 200px;
+    }
+}
